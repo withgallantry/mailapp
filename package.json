@@ -21,6 +21,7 @@
     "react": "^0.13.3"
   },
   "devDependencies": {
+    "babelify": "^6.3.0",
     "browserify": "^11.1.0",
     "chai": "^3.2.0",
     "mocha": "^2.0.1",
@@ -38,10 +39,7 @@
   "browserify": {
     "transform": [
       [
-        "reactify",
-        {
-          "es6": true
-        }
+        "babelify"
       ]
     ]
   }
