@@ -4,3 +4,4 @@ app/bundle.js
 build/cache/
 build/builds/
 .DS_Store
+.idea
